@@ -1,3 +1,65 @@
 body{
-    background-image: linear-gradient(rgb(58, 58, 231), rgb(247, 21, 21), white);
+    background-image: linear-gradient(rgb(58, 58, 231), rgb(247, 21, 21), );
+    margin: 5% auto;
+    width: 90%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+hr{
+    border-top: 5px dotted white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    color:white;
+}
+
+li{
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+a:link {
+    color: red;
+    text-shadow: 2px 2px 0px white;
+  }
+
+a:visited {
+    color: black;
+    text-shadow: 2px 2px 0px white;
+}
+
+a:hover{
+    color:white;
+    font-size: 120%;
+    text-shadow: 2px 2px 0px white;
+}
+
+a:active {
+    color: white;
+    text-shadow: 2px 2px 0px white;
 }
