@@ -1,11 +1,24 @@
 body{
-    background-image: linear-gradient(rgb(58, 58, 231), rgb(247, 21, 21));
+    /* background-image: linear-gradient(rgb(0, 0, 0), rgb(203, 186, 186)); */
     margin: 5% auto;
+    margin-top: 0%;
     width: 90%;
+    background-color: black;
+    background-image: url('favicon/image/148418.jpeg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;    
+}
+
+.div.navbar{
 }
 
 table {
     border-collapse: collapse;
+}
+
+label{
+    color: white;
 }
 
 th, td {
@@ -13,7 +26,7 @@ th, td {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
-  }
+}
 
 hr{
     border-top: 5px dotted white;
@@ -31,35 +44,149 @@ p{
     color: white;
 }
 
-ul{
+ul, ol{
     color:white;
 }
 
-li{
+/* td{
     color: white;
-}
-
-td{
-    color: white;
-}
+} */
 
 a:link {
-    color: red;
-    text-shadow: 2px 2px 0px white;
+    color: white;
+    /* text-shadow: 2px 2px 0px white; */
   }
 
 a:visited {
-    color: black;
-    text-shadow: 2px 2px 0px white;
+    color: white;
+    /* text-shadow: 2px 2px 0px white; */
 }
 
 a:hover{
-    color:white;
+    color:rgb(178, 0, 0);
     font-size: 120%;
-    text-shadow: 2px 2px 0px white;
+    /* text-shadow: 2px 2px 0px white; */
 }
 
 a:active {
     color: white;
-    text-shadow: 2px 2px 0px white;
+    text-decoration: none;
+}
+.active1{
+    text-decoration: underline;
+}
+
+div a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 1.3em;
+}
+
+div{
+    padding: 13px;
+    text-align: center;
+    position: sticky;
+    background-color: rgb(0, 0, 0);
+    top: 0%;
+    right: 0;
+    width: 100%;
+    /* padding-top: 10px; */
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    /* min-width: 400px; */
+    width:100%;
+    box-shadow: 0 0 20px rgba(244, 239, 239, 0.745);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.edtable{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+textarea {
+    width: 100%;
+    writing-mode: horizontal-tb !important;
+    /* font-style: ; */
+    /* font-variant-ligatures: ; */
+    /* font-variant-caps: ; */
+    /* font-variant-numeric: ; */
+    /* font-variant-east-asian: ; */
+    /* font-weight: ; */
+    /* font-stretch: ; */
+    /* font-size: ; */
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color:#ffffff89;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+input {
+    
+    writing-mode: horizontal-tb !important;
+    /* font-style: ; */
+    /* font-variant-ligatures: ; */
+    /* font-variant-caps: ; */
+    /* font-variant-numeric: ; */
+    /* font-variant-east-asian: ; */
+    /* font-weight: ; */
+    /* font-stretch: ; */
+    /* font-size: ; */
+    /* font-family: ; */
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: #ffffff89;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }
